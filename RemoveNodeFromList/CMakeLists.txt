@@ -1,6 +1,5 @@
-add_compile_options(-std=c++11) # CMake 2.8.12 or newer
+cmake_minimum_required(VERSION 2.8)
 
+project(RemoveNodeFromList)
 
-project(LongestSubString)
-
-add_executable(DivideInt main.cpp)
+add_executable(RemoveNodeFromList main.cpp)
