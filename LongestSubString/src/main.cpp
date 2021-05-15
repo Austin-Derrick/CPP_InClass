@@ -7,6 +7,8 @@
 using std::string;
 using std::vector;
 
+// Help from hasnode.com
+
 bool areDistinct(string _string, int i, int j)
 {
     vector<bool> visited(256);
